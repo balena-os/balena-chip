@@ -22,9 +22,9 @@ module.exports =
 	yocto:
 		machine: 'chip'
 		image: 'resin-image'
-		fstype: 'resinos-img'
+		fstype: 'resinos-ubi'
 		version: 'yocto-morty'
-		deployArtifact: 'resin-image-chip.resinos-img'
+		deployArtifact: 'resin-image-chip.resinos-ubi'
 		compressed: true
 
 	configuration:
