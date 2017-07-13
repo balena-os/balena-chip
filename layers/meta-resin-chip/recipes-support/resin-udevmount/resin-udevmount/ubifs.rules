@@ -1,0 +1,4 @@
+KERNEL=="ubi0_0", TAG+="systemd", SYMLINK+="disk/by-label/resin-boot"
+# no need to specify rootfs, it's passed on the kernel commandline
+KERNEL=="ubi0_3", TAG+="systemd", SYMLINK+="disk/by-label/resin-state"
+KERNEL=="ubi0_4", TAG+="systemd", SYMLINK+="disk/by-label/resin-data"
