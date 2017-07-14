@@ -1,5 +1,6 @@
 SUMMARY = "udev rules for UBIFS"
 LICENSE = "ISC"
+LIC_FILES_CHKSUM = "file://${COREBASE}/meta/files/common-licenses/ISC;md5=f3b90e78ea0cffb20bf5cca7947a896d"
 
 SRC_URI = "file://ubifs.rules"
 
