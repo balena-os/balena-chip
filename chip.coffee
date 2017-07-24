@@ -12,9 +12,9 @@ module.exports =
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
-		windows: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#windows'
-		osx: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#on-mac-and-linux'
-		linux: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#on-mac-and-linux'
+		windows: 'http://docs.resin.io/chip/nodejs/getting-started/#adding-your-first-device'
+		osx: 'http://docs.resin.io/chip/nodejs/getting-started/#adding-your-first-device'
+		linux: 'http://docs.resin.io/chip/nodejs/getting-started/#adding-your-first-device'
 	supportsBlink: true
 
 	options: [ networkOptions.group ]
