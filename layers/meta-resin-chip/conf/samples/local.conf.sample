@@ -1,6 +1,9 @@
 # Supported machines
 #MACHINE ?= "chip"
 
+# We use the overlayfs docker storage driver on the CHIP
+DOCKER_STORAGE = "overlay2"
+
 # More info meta-resin/README.md
 #RESIN_CONNECTABLE ?= "1"
 #RESIN_CONNECTABLE_ENABLE_SERVICES ?= "0"
